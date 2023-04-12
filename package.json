@@ -1,0 +1,29 @@
+{
+  "name": "crud-1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrsQugi/CRUD.git"
+  },
+  "keywords": [],
+  "author": "Artem Kolesnikov <02.04.5.art@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xrsQugi/CRUD.git/issues"
+  },
+  "homepage": "https://github.com/xrsQugi/CRUD.git#readme"
+}
