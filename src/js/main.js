@@ -1,24 +1,24 @@
-const BASE_URL = "http://localhost:3000"
+// const BASE_URL = "http://localhost:3000";
 
 
 //! ===================== GET (READ)=====================
-function fetchBooks(){
-    return fetch(`${BASE_URL}/books`)
-    .then((res) => res.json())
-    .then(console.log)
-    .catch(error => {console.log(error)})
-}
+// function fetchBooks(){
+//     return fetch(`${BASE_URL}/books`)
+//     .then((res) => res.json())
+//     .then(console.log)
+//     .catch(error => {console.log(error)});
+// }
 
-function fetchBookById(id){
-    return fetch(`${BASE_URL}/books/${id}`)
-     .then((res) => res.json())
-     .then(console.log)
-     .catch(error => {console.log(error)})
-}
+// function fetchBookById(id){
+//     return fetch(`${BASE_URL}/books/${id}`)
+//      .then((res) => res.json())
+//      .then(console.log)
+//      .catch(error => {console.log(error)});
+// }
 
 //? ===================== Виклик функції =====================
-fetchBooks();
-fetchBookById(4);
+// fetchBooks();
+// fetchBookById(4);
 
 
 //! ===================== POST (CREATE)=====================
@@ -61,7 +61,7 @@ fetchBookById(4);
 //     }
 //     return fetch(`${BASE_URL}/books/${bookId}`, options)
 //         .then((res) => res.json())
-//         .then(console.log("Значення книги оновлені"))
+//         .then(console.log("Значення книги оновлені"));
 // }
 
 //? ===================== Виклик функції =====================
@@ -82,7 +82,7 @@ fetchBookById(4);
 //     }
 //     return fetch(`${BASE_URL}/books/${bookId}`, options)
 //         .then((res) => res.json())
-//         .then(console.log("Книга оновлена повністю"))
+//         .then(console.log("Книга оновлена повністю"));
 // }
 
 //? ===================== Виклик функції =====================
@@ -100,7 +100,7 @@ fetchBookById(4);
 //     }
 //     return fetch(`${BASE_URL}/books/${bookId}`, options)
 //         .then((res) => res.json())
-//         .then(console.log(`Книга з "id ${bookId}" видалена`))
+//         .then(console.log(`Книга з "id ${bookId}" видалена`));
 // }
 
 //? ===================== Виклик функції =====================
